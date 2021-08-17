@@ -1,3 +1,24 @@
+**初期設定**
+
+laravel6で最新のlaravel uiを入れる場合はこちら（行ったときは1.3.0が最新だった）
+
+```
+composer require laravel/ui:1.3.0
+```
+
+公式ドキュメントが設定しているこのやり方ではできなかったので注意。
+
+```
+composer require laravel/ui:^1.0 --dev
+zsh: no matches found: laravel/ui:^1.0
+```
+
+
+
+
+---------
+
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
 <p align="center">
