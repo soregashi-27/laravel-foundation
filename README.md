@@ -13,7 +13,7 @@ composer require laravel/ui:^1.0 --dev
 zsh: no matches found: laravel/ui:^1.0
 ```
 
-**php-cs-fixerでコード整形**
+**php-cs-fixer v2（2.19.1）でコード整形**
 ```
 ./vendor/bin/php-cs-fixer fix -v --diff --diff-format udiff
 
