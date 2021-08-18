@@ -45,7 +45,7 @@ return (new PhpCsFixer\Config())
             ],
         ],
         'global_namespace_import' => true,
-        'hash_to_slash_comment' => true,
+        'single_line_comment_style' => true,
         'heredoc_to_nowdoc' => true,
         'include' => true,
         // 'is_null' => ['use_yoda_style' => false], // risky
@@ -56,7 +56,7 @@ return (new PhpCsFixer\Config())
         'lowercase_cast' => true,
         'magic_constant_casing' => true,
         'method_chaining_indentation' => true,
-        'method_separation' => true,
+        'class_attributes_separation' => true,
         // 'modernize_types_casting' => true, // risky
         'native_function_casing' => true,
         // 'no_alias_functions' => true, // risky
@@ -65,7 +65,7 @@ return (new PhpCsFixer\Config())
         'no_empty_comment' => true,
         'no_empty_phpdoc' => true,
         'no_empty_statement' => true,
-        'no_extra_consecutive_blank_lines' => [
+        'no_extra_blank_lines' => [
             'tokens' => [
                 'break',
                 'continue',
@@ -83,7 +83,7 @@ return (new PhpCsFixer\Config())
         'no_leading_namespace_whitespace' => true,
         'no_mixed_echo_print' => true,
         'no_multiline_whitespace_around_double_arrow' => true,
-        'no_multiline_whitespace_before_semicolons' => true,
+        'multiline_whitespace_before_semicolons' => true,
         'no_null_property_initialization' => true,
         // 'no_php4_constructor' => true, // risky
         'no_short_bool_cast' => true,
@@ -112,7 +112,8 @@ return (new PhpCsFixer\Config())
         'phpdoc_align' => ['align' => 'left'],
         'phpdoc_annotation_without_dot' => true,
         'phpdoc_indent' => true,
-        'phpdoc_inline_tag' => true,
+        'general_phpdoc_tag_rename' => true,
+        'phpdoc_inline_tag_normalizer' => true,
         'phpdoc_no_access' => true,
         'phpdoc_no_empty_return' => true,
         'phpdoc_no_package' => true,
@@ -144,7 +145,7 @@ return (new PhpCsFixer\Config())
         'standardize_not_equals' => true,
         'ternary_operator_spaces' => true,
         'ternary_to_null_coalescing' => true,
-        'trailing_comma_in_multiline_array' => true,
+        'trailing_comma_in_multiline' => true,
         'trim_array_spaces' => true,
         'unary_operator_spaces' => true,
         // 'void_return' => true, // risky
