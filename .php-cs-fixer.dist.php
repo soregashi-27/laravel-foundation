@@ -9,6 +9,8 @@ return (new PhpCsFixer\Config())
         'binary_operator_spaces' => [
             'align_double_arrow' => false,
             'align_equals' => false,
+            // TODO: 書き方調べる
+            // 参考： https://bit.ly/37VEea0
         ],
         'blank_line_after_opening_tag' => false,
         'blank_line_before_statement' => [
