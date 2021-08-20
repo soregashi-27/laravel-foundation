@@ -1,3 +1,9 @@
+**環境構築**
+```
+composer create-project --prefer-dist laravel/laravel foundation "6.*"
+```
+
+
 **初期設定**
 
 laravel6で最新のlaravel uiを入れる場合はこちら（行ったときは1.3.0が最新だった）
