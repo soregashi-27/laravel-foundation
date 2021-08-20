@@ -9,7 +9,7 @@ composer create-project --prefer-dist laravel/laravel foundation "6.*"
 laravel6で最新のlaravel uiを入れる場合はこちら（行ったときは1.3.0が最新だった）
 
 ```
-composer require laravel/ui:1.3.0
+composer require laravel/ui:1.3.0 --dev
 ```
 
 公式ドキュメントが設定しているこのやり方ではできなかったので注意。
