@@ -18,6 +18,11 @@ zsh: no matches found: laravel/ui:^1.0
 ./vendor/bin/php-cs-fixer fix -v --diff --diff-format udiff
 ```
 
+**Routingの確認**
+```
+php artisan route:list
+```
+
 
 ---------
 
